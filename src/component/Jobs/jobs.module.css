@@ -1,0 +1,25 @@
+.jobLogo {
+    width: 100px;
+}
+.job {
+    display: grid;
+    grid-template-areas:
+            "c a b d";
+    padding-bottom: 20px;
+    grid-template-columns: 2fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.jobA {
+    text-align: left;
+    grid-area: a;
+    align-self: start;
+    justify-self: start;
+}
+.jobB {
+    text-align: right;
+    grid-area: b;
+    align-self: start;
+    justify-self: end;
+}

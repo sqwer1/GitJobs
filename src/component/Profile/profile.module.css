@@ -1,0 +1,29 @@
+.profile {
+    display: grid;
+    grid-template-areas:
+            "c a b d";
+    padding-bottom: 20px;
+    grid-template-columns: 2fr 3fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.profileA {
+    text-align: left;
+    grid-area: a;
+    align-self: start;
+    justify-self: start;
+}
+.profileB {
+    text-align: right;
+    grid-area: b;
+    align-self: start;
+    justify-self: end;
+    padding-top: 20px;
+}
+.profileLogo {
+    width: 200px;
+}
+.test {
+    display: inline-block;
+}
